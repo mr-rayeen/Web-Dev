@@ -1,0 +1,674 @@
+.container {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  padding-bottom: 80px;
+}
+.left-page {
+  width: 22%;
+  /* border: 1px solid blueviolet; */
+  height: 600px;
+}
+
+.right-page {
+  width: 70%;
+  /* border: 1px solid orange; */
+  height: fit-content;
+  padding: 10px;
+  padding-right: 0;
+}
+
+/* ---------- Main Heading Peafowl Start------------------ */
+
+.main-heading {
+  /* border: 1px solid green; */
+  width: 100%;
+  display: flex;
+  margin-top: 15px;
+  border-bottom: 1px solid #a2a9b1;
+  padding-bottom: 5px;
+}
+.heading-peafowl {
+  font-size: 28px;
+  font-family: "Linux Libertine";
+  width: 80%;
+}
+.translate {
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  position: relative;
+  left: 19px;
+}
+.translate:hover {
+  cursor: pointer;
+  background-color: rgb(216, 236, 255);
+}
+.translate:active {
+  background-color: rgb(7, 7, 173);
+}
+.translate::before {
+  content: "";
+  display: inline-block;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/888/888878.png);
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.translate::after {
+  content: "";
+  display: inline-block;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/10054/10054433.png);
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* ---------- Main Heading Peafowl Ends ------------------ */
+
+/* ---------- Sub Heading Links Starts --------------------- */
+
+.sub-heading-links {
+  /* border: 1px solid olive; */
+  /* width: 100%; */
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  padding-bottom: 0;
+  /* align-items: center; */
+  gap: 20px;
+  border-bottom: 1px solid #a2a9b1;
+}
+.black-link {
+  /* border: 1px solid black; */
+  color: #2a2b2c;
+}
+.blue-link {
+  /* border: 1px solid black; */
+  color: #476bd9;
+}
+.blue-link:hover {
+  border-bottom: 2px solid #476bd9;
+  cursor: pointer;
+}
+.black-underline {
+  border-bottom: 2px solid black;
+  cursor: pointer;
+}
+.heading-link {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: sans-serif;
+  position: relative;
+  top: 5px;
+  height: 26px;
+}
+.space-maker {
+  flex-grow: 2;
+}
+.dropdown::after {
+  content: "";
+  display: inline-block;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/8034/8034863.png);
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 7px;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  top: -9px;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding-top: 0px;
+  margin-top: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.article {
+  position: relative;
+  right: 5px;
+}
+
+/* ---------- Sub Heading Links Ends --------------------- */
+
+/* ---------- Main Content Starts --------------------- */
+
+.main-content {
+  width: 100%;
+  height: 90%;
+  /* border: 1px solid purple; */
+}
+.text-encyclopedia {
+  width: 98%;
+  /* border: 1px solid orangered; */
+  margin-top: 12px;
+  color: #202122;
+}
+
+.text {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #202122;
+}
+.text-italic {
+  font-style: italic;
+  font-size: 14px;
+  font-family: sans-serif;
+  /* border: 1px solid yellow; */
+  color: #202122;
+  padding-left: 25px;
+}
+.content {
+  /* border: 1px solid red; */
+  height: fit-content;
+  width: 100%;
+  display: flex;
+}
+.text-content {
+  /* border: 1px solid brown; */
+  width: 72%;
+  height: fit-content;
+}
+.cards {
+  /* border: 1px solid navy; */
+  width: 28%;
+  margin-top: 27px;
+  height: fit-content;
+}
+.para {
+  line-height: 22px;
+  margin-top: 15px;
+}
+.upper-subscript {
+  font-size: 11px;
+  color: #476bd9;
+  cursor: pointer;
+  position: relative;
+  bottom: 7px;
+}
+
+/* --------- Paragraph Heading ---------- */
+.para-heading {
+  /* border: 1px solid yellow; */
+  margin-top: 20px;
+  font-size: 21px;
+  font-family: "Linux Libertine";
+  padding-bottom: 5px;
+  border-bottom: 1px solid #a2a9b1;
+}
+.edit {
+  font-size: 13px;
+  margin-left: 13px;
+}
+
+/* ------------ Paragraph SubHeading ---------------- */
+.para-subheading-text {
+  font-size: 17px;
+  font-weight: 700;
+}
+.para-subheading {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+/* -------------- Paragraph Sub Hading Small --------------- */
+.para-subheading-text-small {
+  font-size: 14px;
+  font-weight: 700;
+}
+.para-subheading-small {
+  margin-top: 18px;
+  margin-bottom: 7px;
+}
+
+/* -----------Right Side Peafowl info box ---------- */
+.peafowl-info {
+  width: 91%;
+  height: 705px;
+  border: 1px solid #a2a9b1;
+  margin: 10px;
+  margin-right: 0;
+  padding: 6px;
+  font-size: 14px;
+}
+.peafowl-info-header {
+  /* border: 1px solid yellow; */
+  width: 100%;
+  height: 89px;
+  margin-bottom: 5px;
+  background-color: #ebebd2;
+  padding-top: 3px;
+}
+.spectrum {
+  border: 1px solid #666666;
+  height: 18px;
+  width: 99.5%;
+  margin-top: 7px;
+  font-size: 11.5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.spectrum-letter {
+  /* border: 1px solid black; */
+  height: 18px;
+  width: -webkit-fill-available;
+}
+
+.peacock-image {
+  /* background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Peacock_Plumage.jpg/220px-Peacock_Plumage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 220px;
+    height: 135px; */
+  width: 100%;
+  height: 100%;
+  margin-bottom: 3px;
+}
+.peafowl-info-card-heading {
+  text-align: center;
+  background-color: #ebebd2;
+  padding: 4px 0 4px 0;
+  font-weight: 700;
+  margin-top: 5px;
+}
+.edit-icon {
+  width: 15px;
+  height: 15px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr.svg/15px-OOjs_UI_icon_edit-ltr.svg.png);
+  cursor: pointer;
+  float: right;
+  background-color: transparent;
+  padding-right: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.classification-table {
+  line-height: 26px;
+  display: flex;
+  margin-top: 5px;
+}
+.right-links {
+  margin-left: 50px;
+}
+.list {
+  margin-top: 5px;
+  margin-left: 32px;
+  line-height: 21px;
+}
+
+.list ul > li::marker {
+  font-weight: 700;
+  font-size: 19px;
+}
+
+/* --------Image Cards ---------*/
+.image-card {
+  border: 1px solid #a2a9b1;
+  margin: 33px 0 20px 10px;
+  padding: 4px;
+  padding-bottom: 2px;
+}
+.image-card-text {
+  font-size: 12.3px;
+  display: flex;
+  background-color: #f8f8fa;
+}
+.pop-up {
+  width: 15px;
+  height: 11px;
+  position: relative;
+  /* left: 56px; */
+  right: -58px;
+  top: 3px;
+}
+.pop-up:hover {
+  cursor: pointer;
+}
+
+/* Text content lower part with full width */
+.text-content-full-width {
+  width: 100%;
+  height: fit-content;
+  /* border: 1px solid black; */
+}
+
+.audio-card {
+  width: 320px;
+  height: 92px;
+  float: right;
+  margin: 4px 0px 4px 12px;
+  border: 1px solid #aaaaaa;
+  background-color: #f9f9f9;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.speaker-icon {
+  width: 40px;
+  height: 40px;
+  background-image: url(https://cdn-icons-png.flaticon.com/128/8436/8436394.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 10px 8px;
+}
+
+.audio-file-box {
+  width: 232px;
+  height: 57px;
+  margin: 5px;
+}
+
+/* --------- Contemporary Cards ------- */
+.contemp-cards {
+  width: 75%;
+  height: 970px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  column-gap: 6px;
+  margin-top: 20px;
+}
+.contemp-card {
+  width: fit-content;
+  height: fit-content;
+}
+.contemp-card-img-box {
+  width: 230px;
+  height: 230px;
+  border: 1px solid #c8ccd1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contemp-card-text {
+  font-size: 13px;
+  line-height: 18px;
+  /* border: 1px solid black; */
+  width: 230px;
+}
+.contemp-card-img {
+  margin: 10px;
+}
+
+/* -------Breeding and Color Variations----------- */
+.book-head {
+  width: 758px;
+  height: 101px;
+  border: 1px solid #a2a9b1;
+  border-left: 10px solid #f28500;
+  font-size: 14px;
+  line-height: 22px;
+  margin: auto;
+  margin-top: 7px;
+  display: flex;
+  justify-content: center;
+}
+.book-source {
+  font-size: 12px;
+  font-style: italic;
+}
+.book-icon-box {
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+}
+.book-icon {
+  width: 50px;
+  height: 40px;
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png);
+}
+.book-head-text {
+  margin-top: 5px;
+}
+
+figure {
+  border: 1px solid #a2a9b1;
+  padding: 4px;
+  margin: auto;
+  width: fit-content;
+  float: right;
+  background-color: #f8f8fa;
+  margin-left: 10px;
+  margin-bottom: 18px;
+}
+figcaption {
+  /* padding: 2px; */
+  margin: 0;
+  padding: 0;
+  font-size: 12.3px;
+  width: 220px;
+  line-height: 17px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+/* Left side Content Menu */
+.content-menu {
+  /* border: 1px solid black; */
+  width: 82%;
+  margin: 20px;
+  font-size: 14px;
+  margin-top: 68px;
+  padding-left: 30px;
+  height: 70%;
+}
+td {
+  /* border: 1px solid red; */
+  padding: 4px;
+  padding-left: 10px;
+}
+tr {
+  text-align: left;
+}
+
+/* ------- References -------------- */
+.reference-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* border: 1px solid black; */
+  height: fit-content;
+  font-size: 12.6px;
+  line-height: 19.8px;
+  text-decoration: none;
+  margin: 4px 0 0 0;
+  justify-content: space-around;
+}
+
+.reference-box {
+  width: 45%;
+  /* border: 1px dotted red; */
+  height: 635px;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.locked::after {
+  content: "";
+  background-image: url(//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg);
+  padding-right: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 3px;
+}
+.share::after {
+  background-image: url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/link-external-small-ltr-progressive.svg?fb64d);
+  padding-right: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 3px;
+}
+.unlocked::after {
+  content: "";
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg);
+  padding-right: 15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 3px;
+}
+
+/* ------- External Links -------- */
+.li-icon {
+  width: 13px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
+  top: 4px;
+}
+.li-1 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikiquote-logo.svg/13px-Wikiquote-logo.svg.png);
+}
+.li-2 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/12px-Commons-logo.svg.png);
+}
+.li-3 {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/14px-Wikispecies-logo.svg.png);
+}
+.external-links li::marker {
+  font-size: 16px;
+}
+.li-icon:hover {
+  cursor: pointer;
+}
+.nav-box {
+  border: 1px solid #a2a9b1;
+  width: 99%;
+  height: fit-content;
+  font-size: 12.3px;
+  padding: 3px;
+}
+.nav-title {
+  /* background-color: transparent; */
+  background-color: #ccccff;
+  height: 18px;
+  padding: 3px 20px 3px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title-edit::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: url(https://upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png)
+    no-repeat;
+  background-size: contain;
+}
+.title-1 {
+  font-size: 14px;
+  padding: 0 10px 0 10px;
+  border-right: 1px solid #a2a9b1;
+}
+
+.nav-title-1 {
+  height: 18px;
+  padding: 3px 20px 3px 0px;
+  display: flex;
+  align-items: center;
+}
+/* ---------- !Main Content Ends --------------------- */
+
+/* ------------Horizontal Line in after container --------------- */
+hr {
+  width: 93%;
+  margin: auto;
+  margin-bottom: 20px;
+  color: #a2a9b1;
+}
+.end-message {
+  width: 93%;
+  margin: auto;
+  margin-bottom: 20px;
+  font-size: 12.5px;
+}
+
+#star-rating {
+  display: inline-flex;
+  background: transparent;
+  direction: rtl;
+}
+#star-rating input[type="radio"] {
+  display: none;
+}
+#star-rating label {
+  display: block;
+  width: 50px;
+  height: 50px;
+  background: url(https://cdn-icons-png.flaticon.com/128/2893/2893811.png)
+    no-repeat;
+  background-size: contain;
+}
+#star-rating input[type="radio"]:checked ~ label {
+  background: url(https://cdn-icons-png.flaticon.com/128/477/477406.png)
+    no-repeat;
+  background-size: contain;
+}
+.rating-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.rating-heading {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.feedback-form {
+  margin: auto;
+  width: 700px;
+  font-size: 30px;
+  font-weight: 700;
+  border: 1px solid #a2a9b1;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #944e63;
+  color: #561c24;
+}
+
+.feedback-form h3 {
+  text-align: center;
+}
+.field {
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: transparent;
+}
+.feedback-form input {
+  height: 30px;
+  padding: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  background-color: #caa6a6;
+  border-radius: 10px;
+}
+.reponse {
+  padding: 20px;
+  font-size: 18px;
+  width: 610px;
+  height: 300px;
+  margin-top: 20px;
+}
